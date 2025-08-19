@@ -15,7 +15,7 @@ export const msalConfig = {
     auth: {
         clientId: 'c67704ef-0c69-47a9-87ce-623aa4ec5894', // This is the ONLY mandatory field that you need to supply.
         authority: 'https://adnocimpersonation.b2clogin.com/adnocimpersonation.onmicrosoft.com/B2C_1A_SIGNUP_SIGNIN', // Replace the placeholder with your tenant subdomain 
-        redirectUri: 'http://localhost:3000/redirect', // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
+        redirectUri: 'https://icy-river-0e71bd71e.1.azurestaticapps.net/', // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
         postLogoutRedirectUri: '/', // Indicates the page to navigate after logout.
         knownAuthorities: ['adnocimpersonation.b2clogin.com'],
         navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
