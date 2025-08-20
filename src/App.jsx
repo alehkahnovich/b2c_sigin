@@ -20,7 +20,7 @@ const MainContent = () => {
      */
     const { instance } = useMsal();
     const activeAccount = instance.getActiveAccount();
-
+    console.log(activeAccount);
     const handleRedirect = () => {
         instance
             .loginRedirect({
